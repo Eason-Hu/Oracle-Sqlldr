@@ -23,6 +23,6 @@ Use boundfiller function introduced after Oracle 9i
   col1        "decode(trim(:col1), 'N A.', NULL, trim(:col1))" ,
   field2      boundfiller,
   col3        "decode(trim(:col3), 'N A', NULL, trim(REGEXP_REPLACE(:col3 , ',', '')))",
-  "144A_col2" "decode(trim(:field2), 'N.A.', NULL, 'N. A.', NULL, 'N. A', NULL, 'N A.', NULL, trim(:field2))"
+  "144A_col2" "decode(trim(:field2), 'N A.', NULL, trim(:field2))"
 )
 ```
