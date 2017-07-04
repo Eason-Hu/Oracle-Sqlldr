@@ -1,3 +1,4 @@
+```
 LOAD DATA
 APPEND
 INTO TABLE test_raw
@@ -11,5 +12,5 @@ OPTIONALLY ENCLOSED BY '"'
                 ddl_data_varray                 CHAR(25)
         )
 )
-
+```
 
